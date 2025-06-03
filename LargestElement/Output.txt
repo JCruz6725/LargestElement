@@ -1,0 +1,32 @@
+﻿***Test 1 **********
+[]
+Error: Array cannot be empty. (Parameter 'array')
+
+   at LargestElement.Program.Sort(Int32[] array) in C:\_P_Proj\LargestElement\LargestElement\Program.cs:line 29
+   at LargestElement.Program.Arrays(Int32[][] arr) in C:\_P_Proj\LargestElement\LargestElement\Program.cs:line 88
+********************
+
+***Test 2 **********
+[3, 1, 2, 4, 5]
+[1, 2, 3, 4, 5]
+********************
+
+***Test 3 **********
+[5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]
+********************
+
+***Test 4 **********
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
+********************
+
+***Test 5 **********
+[33, 5, 7, 11, 99, 100, -45]
+[-45, 5, 7, 11, 33, 99, 100]
+********************
+
+***Test 6 **********
+[0, -1, -2, -3, -4]
+[-4, -3, -2, -1, 0]
+********************
