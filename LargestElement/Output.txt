@@ -1,32 +1,67 @@
-﻿***Test 1 **********
-[]
-Error: Array cannot be empty. (Parameter 'array')
+﻿*** Test 1 ***
+Array cannot be empty. (Parameter 'array')
+   at LargestElement.LargestElement.Sort(Int32[] array) in C:\_P_Proj\LargestElement\LargestElement\LargestElement.cs:line 11
+   at LargestElement.TestCaseRunner.Run(TestCase[] testCases) in C:\_P_Proj\LargestElement\LargestElement\TestCaseRunner.cs:line 7
 
-   at LargestElement.Program.Sort(Int32[] array) in C:\_P_Proj\LargestElement\LargestElement\Program.cs:line 29
-   at LargestElement.Program.Arrays(Int32[][] arr) in C:\_P_Proj\LargestElement\LargestElement\Program.cs:line 88
-********************
+***********************
 
-***Test 2 **********
-[3, 1, 2, 4, 5]
-[1, 2, 3, 4, 5]
-********************
+*** Test 2 ***
+k cannot be greater than the length of the array.
+   at LargestElement.LargestElement.GetNthLargest(Int32[] arr, Int32 k) in C:\_P_Proj\LargestElement\LargestElement\LargestElement.cs:line 48
+   at LargestElement.TestCaseRunner.Run(TestCase[] testCases) in C:\_P_Proj\LargestElement\LargestElement\TestCaseRunner.cs:line 8
 
-***Test 3 **********
-[5, 4, 3, 2, 1]
-[1, 2, 3, 4, 5]
-********************
+***********************
 
-***Test 4 **********
-[1, 1, 1, 1, 1]
-[1, 1, 1, 1, 1]
-********************
+*** Test 3 ***
+Test Array: [3, 1, 2, 4, 5]
+K: 2
 
-***Test 5 **********
-[33, 5, 7, 11, 99, 100, -45]
-[-45, 5, 7, 11, 33, 99, 100]
-********************
+Sorted: [1, 2, 3, 4, 5]
+Nth Largest Element: 4
 
-***Test 6 **********
-[0, -1, -2, -3, -4]
-[-4, -3, -2, -1, 0]
-********************
+***********************
+
+*** Test 4 ***
+Test Array: [5, 4, 1]
+K: 2
+
+Sorted: [1, 4, 5]
+Nth Largest Element: 4
+
+***********************
+
+*** Test 5 ***
+Test Array: [1, 1, 1]
+K: 3
+
+Sorted: [1, 1, 1]
+Nth Largest Element: 1
+
+***********************
+
+*** Test 6 ***
+Test Array: [33, 5, 7, 11, 99, 100, -45]
+K: 3
+
+Sorted: [-45, 5, 7, 11, 33, 99, 100]
+Nth Largest Element: 33
+
+***********************
+
+*** Test 7 ***
+Test Array: [0, -1, -2, -3, -4]
+K: 2
+
+Sorted: [-4, -3, -2, -1, 0]
+Nth Largest Element: -1
+
+***********************
+
+*** Test 8 ***
+Test Array: [66, 98, 53, 64, 33, 98, 82, 98, 49, 32]
+K: 5
+
+Sorted: [32, 33, 49, 53, 64, 66, 82, 98, 98, 98]
+Nth Largest Element: 66
+
+***********************
