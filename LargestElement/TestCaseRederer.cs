@@ -5,7 +5,7 @@ namespace LargestElement {
 
         public static void RenderAll(TestCase[] testCases) {
             int count = 1;
-            foreach(var testCase in testCases) {
+            foreach(TestCase testCase in testCases) {
                 Console.WriteLine($"*** Test {count++} ***");
                 if(testCase.Error is null)
                     Render(testCase);
@@ -43,7 +43,7 @@ namespace LargestElement {
 
             StringBuilder sb = new();
             sb.Append("[");
-            foreach(var item in arr) {
+            foreach(int item in arr) {
                 sb.Append(item + ", ");
             }
             sb = sb.Remove(sb.Length - 2, 2);
