@@ -6,6 +6,4 @@
         public int? NthLargestElement { get; set; } = null;
         public Exception? Error { get; set; } = null;
     }
-
-
 }

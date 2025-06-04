@@ -50,6 +50,5 @@
             int[] sorted_arrar = Sort(arr).ToArray();
             return sorted_arrar[sorted_arrar.Length - k];
         }
-    
     }
 }

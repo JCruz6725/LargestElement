@@ -50,8 +50,5 @@ namespace LargestElement {
             sb.Append("]");
             return sb.ToString();
         }
-
-
-
     }
 }
